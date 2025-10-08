@@ -1,6 +1,5 @@
 <template>
-  <section>
-    <!-- trigger section Scroll left -->
+  <section class="trigger">
     <div class="trigger_col" id="scroll-left">
       <div class="trigger_col_slider">
         <div class="trigger_col_slider_media">
@@ -11,25 +10,25 @@
         </div>
         <div class="trigger_col_slider_media">
           <img
-            src="https://res.cloudinary.com/dvoq5mos7/image/upload/v1759844178/wmremove-transformed_zihmhw.png"
+            src="https://res.cloudinary.com/dvoq5mos7/image/upload/v1759911952/niclas-moser-NkNQU4bJjqQ-unsplash_njtifm.jpg"
             alt="picture"
           />
         </div>
       </div>
 
-      <div class="trigger_col_nav">
-        <div class="trigger_col_nav_container b-absolute--center">
+      <div class="trigger_col_navigation">
+        <div class="trigger_col_navigation_container b-absolute--center">
           <span>Chapters</span>
           <ul>
-            <li class="trigger_col_nav_item">GRIND</li>
-            <li class="trigger_col_nav_item">SLIDE</li>
+            <li class="trigger_col_navigation_item">GRIND</li>
+            <li class="trigger_col_navigation_item">SLIDE</li>
           </ul>
         </div>
       </div>
     </div>
     <div class="trigger_col" id="scroll-right">
       <div class="trigger_col_container">
-        <div class="trigger_col_container_block">
+        <div class="trigger_col_block">
           <h1>Grind</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, sit! Pariatur corporis
@@ -38,33 +37,36 @@
           </p>
           <div class="trigger_col_block_cover">
             <div class="trigger_col_block_cover_medias">
-                <img
-                  src="https://res.cloudinary.com/dvoq5mos7/image/upload/v1759840762/   gaelle-marcel-f6ZQIQ6wAmE-unsplash_xicqhv.jpg"
-                  alt=""
-                />
-                <img
-                  src="https://res.cloudinary.com/dvoq5mos7/image/upload/v1759840762/   hector-o-connor-XSknXjyCVcs-unsplash_vitqe5.jpg"
-                  alt=""
-                />
-                <img
-                  src="https://res.cloudinary.com/dvoq5mos7/image/upload/v1759840876/   alvan-nee-G0lfUsch6nU-unsplash_gmdxcw.jpg"
-                  alt=""
-                />
+              <img
+                src="https://res.cloudinary.com/dvoq5mos7/image/upload/v1759912023/ilya-yarmosh-fQELbkwlyLM-unsplash_cbnsp9.jpg"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dvoq5mos7/image/upload/v1759920167/joris-goossens-bfuMiO-oxBI-unsplash_kcsont.jpg"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dvoq5mos7/image/upload/v1759920062/andrew-pons-l0iOHra9kNc-unsplash_cqeirz.jpg"
+                alt=""
+              />
             </div>
             <div class="trigger_cols_block_texts b-absolute--center">
-                <h2>Skate * Skate</h2>
-                <h2>Skate * Skate</h2>
-                <h2>Skate * Skate</h2>
-                <h2>Skate * Skate</h2>
-                <h2>Skate * Skate</h2>
-                <h2>Skate * Skate</h2>
+              <h2>Skate * Skate</h2>
+              <h2>Skate * Skate</h2>
+              <h2>Skate * Skate</h2>
+              <h2>Skate * Skate</h2>
+              <h2>Skate * Skate</h2>
+              <h2>Skate * Skate</h2>
             </div>
           </div>
           <div class="trigger_col_block_cover_bg">
-            <img src="https://res.cloudinary.com/dvoq5mos7/image/upload/v1759845428/raquel-pedrotti-AHgpNYkX9dc-unsplash_jqz1gr.jpg" alt="">
+            <img
+              src="https://res.cloudinary.com/dvoq5mos7/image/upload/v1759920480/andre-frueh-E5MR5JIIcBE-unsplash_g5udcr.jpg"
+              alt=""
+            />
           </div>
         </div>
-        <div class="trigger_col_container_block">
+        <div class="trigger_col_block">
           <h1>Slide</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, sit! Pariatur corporis
@@ -73,36 +75,27 @@
           </p>
           <div class="trigger_col_block_cover">
             <div class="trigger_col_block_cover_medias">
-                <img
-                  src="https://res.cloudinary.com/dvoq5mos7/image/upload/v1759840762/   gaelle-marcel-f6ZQIQ6wAmE-unsplash_xicqhv.jpg"
-                  alt=""
-                />
-                <img
-                  src="https://res.cloudinary.com/dvoq5mos7/image/upload/v1759840762/   hector-o-connor-XSknXjyCVcs-unsplash_vitqe5.jpg"
-                  alt=""
-                />
-                <img
-                  src="https://res.cloudinary.com/dvoq5mos7/image/upload/v1759840876/   alvan-nee-G0lfUsch6nU-unsplash_gmdxcw.jpg"
-                  alt=""
-                />
-            </div>
-            <div class="trigger_cols_block_texts b-absolute--center">
-                <h2>Skate * Skate</h2>
-                <h2>Skate * Skate</h2>
-                <h2>Skate * Skate</h2>
-                <h2>Skate * Skate</h2>
-                <h2>Skate * Skate</h2>
-                <h2>Skate * Skate</h2>
+              <img
+                src="https://res.cloudinary.com/dvoq5mos7/image/upload/v1759913492/tom-morbey-Ke_bXG4dc2w-unsplash_jkaui5.jpg"
+                alt=""
+              />
             </div>
           </div>
-          <div class="trigger_col_block_cover_bg">
-            <img src="https://res.cloudinary.com/dvoq5mos7/image/upload/v1759845428/raquel-pedrotti-AHgpNYkX9dc-unsplash_jqz1gr.jpg" alt="">
-          </div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos a vel dolore
+            laboriosam voluptatibus ab velit porro? Ratione, voluptatum ullam. Iusto modi iste quis,
+            eaque animi odio earum delectus adipisci?
+          </p>
         </div>
       </div>
     </div>
   </section>
-</template>
 
+  <section class="ending">
+    <h3>From the Past</h3>
+    <h3>To the Future</h3>
+    <h3>One Grind at a Time</h3>
+  </section>
+</template>
 
 <script setup></script>
