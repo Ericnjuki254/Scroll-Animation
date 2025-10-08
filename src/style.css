@@ -1,1 +1,90 @@
 @import "tailwindcss";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Minecraft';
+    src: url('@/fonts/minecraft/Minecraft.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'VCR';
+    src: url('@/fonts/vcr_osd_mono/VCR_OSD_MONO_1.001.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+:root{
+    --primary: #ececec;
+    --secondary: #101010;
+}
+html{
+    font-size: calc(100vw / 1920*10);
+}
+body{
+    font-family: 'VCR';
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+h1{
+    font-size: 16rem;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 18rem;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 8rem;
+    text-transform: uppercase;
+}
+span, p, li{
+    font-size: 2.4rem;
+}
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+/* ?-----> Helper Classes */
+.b-absolute {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;    
+}
+.b-absolute--center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ?------> Lenis CSS settings */
+html.lenis{
+    height: auto;
+}
+.lenis.lenis-smooth{
+    scroll-behavior: auto;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+.lenis.lenis-stopped{
+    overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+    pointer-events: none;
+}
+
+/* ?-----> Trigger Section */
